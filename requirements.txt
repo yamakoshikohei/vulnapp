@@ -1,2 +1,2 @@
 Flask==1.1.1  # CVE-2021-XXXX
-requests==2.19.1  # CVE-2018-18074
+requests==2.32.4  # CVE-2018-18074
