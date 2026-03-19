@@ -1,0 +1,13 @@
+version: 2
+updates:
+  # GitHub Actionsの依存関係
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+  # Docker（Dockerfile）の依存関係
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "weekly"
